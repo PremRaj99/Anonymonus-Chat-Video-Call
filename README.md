@@ -1,1 +1,1 @@
-## Amoymanous Chat | video call using WebRTC (P2P)
+## Anonymanous Chat | video call using WebRTC (P2P)

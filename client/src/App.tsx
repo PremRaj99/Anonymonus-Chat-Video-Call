@@ -1,5 +1,16 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Header from "./components/Header";
+import Room from "./pages/Room";
+
 export default function App() {
   return (
-    <div className="bg-black text-white px-40 py-4 text-xl">App</div>
-  )
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/room" element={<Room />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
